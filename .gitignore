@@ -1,0 +1,25 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+providers.tf
+
+# Ignore provider binary directory
+**/.terraform/providers/**
+
+# Ignore any .terraform directories, no matter where they are in the project
+**/.terraform/
+   
+# Ignore CLI configuration files
+.terraformrc
+erraform.rc
+
+# visual code
+**/.vscode/*
+
+# macOS related files
+**/.DS_Store
+.terraform.lock.hcl
